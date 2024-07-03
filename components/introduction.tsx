@@ -45,14 +45,14 @@ const Introduction = () => {
 
           <div className="flex items-center justify-center gap-3 mb-4 md:justify-start md:gap-10">
             <Link
-              href="/projects"
-              className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-lg hover:shadow-white/50"
+              href="/portfolio"
+              className="px-3 py-2 my-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-lg hover:shadow-white/50"
             >
               Ver proyectos
             </Link>
             <Link
               href="/contact"
-              className="px-3 py-2 transition-all border-2 cursor-pointer text-secondary border-secondary text-md w-fit rounded-xl hover:shadow-lg hover:shadow-secondary"
+              className="px-3 py-2 my-5 transition-all border-2 cursor-pointer text-secondary border-secondary text-md w-fit rounded-xl hover:shadow-lg hover:shadow-secondary"
             >
               Contacta conmigo
             </Link>

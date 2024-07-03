@@ -14,23 +14,24 @@ import {
   Book,
   Rocket,
   Speech,
+  Github,
 } from "lucide-react";
 
 export const socialNetworks = [
   {
     id: 1,
-    logo: <Youtube size={30} strokeWidth={1} />,
-    src: "#!",
+    logo: <Github size={30} strokeWidth={1} />,
+    src: "https://github.com/aronaldo9",
   },
   {
     id: 2,
     logo: <Linkedin size={30} strokeWidth={1} />,
-    src: "#!",
+    src: "https://www.linkedin.com/in/aar%C3%B3n-pesqueira-fari%C3%B1a-126057a4/",
   },
   {
     id: 3,
     logo: <Twitter size={30} strokeWidth={1} />,
-    src: "#!",
+    src: "https://x.com/aronconcola",
   },
   {
     id: 4,

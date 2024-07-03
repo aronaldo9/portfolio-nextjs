@@ -1,3 +1,5 @@
+import Separator from "./separator";
+
 interface ContainerProps {
   children: React.ReactNode;
 }

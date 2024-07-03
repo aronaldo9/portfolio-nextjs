@@ -1,11 +1,12 @@
 interface SeparatorProps {
   height: number;
+  className?: string; // Opcional: para añadir clases adicionales
 }
 
 const Separator = (props: SeparatorProps) => {
-  const { height } = props;
+  const { height, className } = props;
 
-  return <div style={{ height }}></div>;
+  return <div className={`${className}`} style={{ height }}></div>;
 };
 
 export default Separator;
