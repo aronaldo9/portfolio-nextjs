@@ -10,7 +10,7 @@ const AvatarServices = () => {
       className="bottom-0 left-0 hidden md:inline-block md:absolute"
     >
       <Image
-        src="/services.png"
+        src="/services2.png"
         width="400"
         height="400"
         className="w-[250px] h-full "

@@ -15,6 +15,13 @@ import {
   Rocket,
   Speech,
   Github,
+  Instagram,
+  Facebook,
+  Contact,
+  Code,
+  Database,
+  BarChart,
+  ClipboardList,
 } from "lucide-react";
 
 export const socialNetworks = [
@@ -35,13 +42,13 @@ export const socialNetworks = [
   },
   {
     id: 4,
-    logo: <Rss size={30} strokeWidth={1} />,
-    src: "#!",
+    logo: <Instagram size={30} strokeWidth={1} />,
+    src: "https://www.instagram.com/aronconcola/",
   },
   {
     id: 5,
-    logo: <Twitch size={30} strokeWidth={1} />,
-    src: "#!",
+    logo: <Facebook size={30} strokeWidth={1} />,
+    src: "https://www.facebook.com/calandracas/",
   },
 ];
 
@@ -73,72 +80,72 @@ export const itemsNavbar = [
   {
     id: 5,
     title: "Home",
-    icon: <Speech size={25} color="#fff" strokeWidth={1} />,
-    link: "/testimonials",
+    icon: <Contact size={25} color="#fff" strokeWidth={1} />,
+    link: "/contact",
   },
 ];
 
 export const dataAboutPage = [
   {
     id: 1,
-    title: "Frontend Developer",
-    subtitle: "TechSolutions",
+    title: "Desarrollador Frontend en Prácticas",
+    subtitle: "Tertius Informática, S.L",
     description:
-      "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
-    date: "Nov 2023 ",
+      "Contribuí en el desarrollo de aplicaciones clave utilizando Laravel, colaborando con un equipo dinámico y mejorando la eficiencia de los proyectos de la empresa.",
+    date: "Junio 2024",
   },
   {
     id: 2,
-    title: "Creador de Experiencias Digitales",
-    subtitle: "PixelCrafters",
+    title: "Graduado en Desarrollo de Aplicaciones Web",
+    subtitle: "IES Hermenegildo Lanz, Granada",
     description:
-      "Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
-    date: "May 2021",
+      "Obtuve el título de Técnico Superior en Desarrollo de Aplicaciones Web, adquiriendo habilidades avanzadas en programación y desarrollo web.",
+    date: "Junio 2024",
   },
   {
     id: 3,
-    title: "Especialista en Desarrollo Frontend",
-    subtitle: "CodeForge Solutions",
+    title: "Desarrollador Web en Prácticas",
+    subtitle: "Clece, S.A",
     description:
-      "Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
-    date: "Ago 2019",
+      "Participé en la mejora de la aplicación de gestión interna, aplicando los conocimientos adquiridos en el certificado de profesionalidad IFCD0210 (Desarrollo de Aplicaciones con Tecnología Web).",
+    date: "Junio 2022",
   },
   {
     id: 4,
-    title: "Prácticas Grado",
-    subtitle: "WebWizards Inc.",
+    title: "Certificado en Desarrollo de Aplicaciones Web",
+    subtitle: "Academia Grupo Futuro, Granada",
     description:
-      "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
-    date: "Mar 2018",
+      "Completé el certificado de profesionalidad IFCD0210, especializándome en tecnologías web y mejorando mis competencias técnicas en desarrollo de aplicaciones.",
+    date: "Junio 2022",
   },
 ];
 
 export const dataCounter = [
   {
     id: 0,
-    endCounter: 10,
-    text: "Años de experiencia",
+    endCounter: 2,
+    text: "Años de formación reglada en DAW",
     lineRight: true,
     lineRightMobile: true,
   },
   {
     id: 1,
-    endCounter: 80,
-    text: "Clientes satisfechos",
+    endCounter: 2,
+    text: "Años llevando a cabo proyectos web",
     lineRight: true,
     lineRightMobile: false,
   },
   {
     id: 2,
-    endCounter: 220,
-    text: "Proyectos finalizados",
+    endCounter: 3,
+    text: "Años realizando cursos de desarrollo web online",
     lineRight: true,
     lineRightMobile: true,
   },
   {
     id: 3,
-    endCounter: 30,
-    text: "Premios ganadores",
+    endCounter: 2,
+    text: "Años trabajando con tecnologías web",
     lineRight: false,
     lineRightMobile: false,
   },
@@ -146,93 +153,91 @@ export const dataCounter = [
 
 export const serviceData = [
   {
-    icon: <Crop />,
-    title: "Branding",
+    icon: <CodeSquare size={30} />,
+    title: "Desarrollo Frontend",
     description:
-      "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
+      "Diseño y desarrollo de interfaces de usuario con HTML, CSS, JavaScript, ReactJS y Tailwind",
   },
   {
-    icon: <Pencil />,
-    title: "Diseño web",
+    icon: <Code size={30} />,
+    title: "Desarrollo Backend",
     description:
-      "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
+      "Lógica del servidor y bases de datos usando PHP, Laravel y MySQL.",
   },
   {
-    icon: <Computer />,
-    title: "Desarrollo web",
-    description:
-      "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
+    icon: <Database size={30} />,
+    title: "Gestión de Bases de Datos",
+    description: "Diseño y optimización de bases de datos relacionales.",
   },
   {
-    icon: <Book />,
-    title: "Copywriting",
+    icon: <BarChart size={30} />,
+    title: "Marketing Digital",
     description:
-      "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
+      "Estrategias y fundamentos de marketing digital para mejorar la presencia online.",
   },
   {
-    icon: <Rocket />,
-    title: "SEO",
-    description:
-      "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+    icon: <ClipboardList size={30} />,
+    title: "Gestión de Proyectos",
+    description: "Coordinación y gestión de proyectos de desarrollo web.",
   },
 ];
 
 export const dataPortfolio = [
   {
     id: 1,
-    title: "Web Pro",
-    image: "/image-1.jpg",
-    urlGithub: "#!",
-    urlDemo: "#!",
+    title: "Proyecto Final DAW",
+    image: "/image-1.png",
+    urlGithub: "https://github.com/aronaldo9/client",
+    urlDemo: "https://rosant-frontend.netlify.app/",
   },
   {
     id: 2,
-    title: "Desarrollo Web Ágil",
-    image: "/image-2.jpg",
-    urlGithub: "#!",
-    urlDemo: "#!",
+    title: "Préstamos VueJS",
+    image: "/image-2.png",
+    urlGithub: "https://github.com/aronaldo9/cotizador-prestamos-vue",
+    urlDemo: "https://proyecto-prestamos-vue-apf.netlify.app/",
   },
   {
     id: 3,
-    title: "Estrategias Web",
-    image: "/image-3.jpg",
-    urlGithub: "#!",
-    urlDemo: "#!",
+    title: "Administrador de Citas",
+    image: "/image-3.png",
+    urlGithub: "https://github.com/aronaldo9/apv-frontend",
+    urlDemo: "https://proyecto-citas-veterinaria-apf.netlify.app/",
   },
   {
     id: 4,
-    title: "Ideas Creativas",
-    image: "/image-4.jpg",
-    urlGithub: "#!",
-    urlDemo: "#!",
+    title: "Cotizador Cripto",
+    image: "/image-4.png",
+    urlGithub: "https://github.com/aronaldo9/39-PROYECTO-Criptomonedas",
+    urlDemo: "https://cotizador-criptomonedas-apf.netlify.app/",
   },
   {
     id: 5,
-    title: "Webs Impactantes",
-    image: "/image-5.jpg",
-    urlGithub: "#!",
-    urlDemo: "#!",
+    title: "Plataforma Cursos",
+    image: "/image-5.png",
+    urlGithub: "https://github.com/aronaldo9/15-PROYECTO-Carrito",
+    urlDemo: "https://cursos-apf.netlify.app/",
   },
   {
     id: 6,
-    title: "Web Dinámica",
-    image: "/image-6.jpg",
-    urlGithub: "#!",
-    urlDemo: "#!",
+    title: "Festival Rock",
+    image: "/image-6.png",
+    urlGithub: "https://github.com/aronaldo9/festivalMusica",
+    urlDemo: "https://festivalrock-apf.netlify.app/",
   },
   {
     id: 7,
-    title: "Dark Web ",
-    image: "/image-7.jpg",
-    urlGithub: "#!",
-    urlDemo: "#!",
+    title: "Blog de Café",
+    image: "/image-7.png",
+    urlGithub: "https://github.com/aronaldo9/BlogDeCafe",
+    urlDemo: "https://blog-de-cafe-apf.netlify.app/",
   },
   {
     id: 8,
-    title: "E-commerce web",
-    image: "/image-8.jpg",
+    title: "Proyecto FCT",
+    image: "/image-8.png",
     urlGithub: "#!",
-    urlDemo: "#!",
+    urlDemo: "https://cristaleriajosma.es/",
   },
 ];
 
