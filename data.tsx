@@ -88,7 +88,7 @@ export const itemsNavbar = [
 export const dataAboutPage = [
   {
     id: 1,
-    title: "Desarrollador Frontend en Prácticas",
+    title: "Desarrollador Web en Prácticas",
     subtitle: "Tertius Informática, S.L",
     description:
       "Contribuí en el desarrollo de aplicaciones clave utilizando Laravel, colaborando con un equipo dinámico y mejorando la eficiencia de los proyectos de la empresa.",
