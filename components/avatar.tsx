@@ -10,10 +10,10 @@ const Avatar = () => {
       className="bottom-0 right-0 hidden md:inline-block md:absolute"
     >
       <Image
-        src="/avatar-11.png"
+        src="/yo.png"
         width={350}
         height={350}
-        className="w-full h-full"
+        className="w-full h-full pr-4"
         alt="Avatar"
       />
     </MotionTransition>
