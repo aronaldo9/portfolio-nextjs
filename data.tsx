@@ -43,7 +43,7 @@ export const socialNetworks = [
   {
     id: 4,
     logo: <Instagram size={30} strokeWidth={1} />,
-    src: "https://www.instagram.com/aronconcola/",
+    src: "https://www.instagram.com/aron.concola79/",
   },
   {
     id: 5,
