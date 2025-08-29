@@ -9,7 +9,7 @@ const Introduction = () => {
     <div className="z-20 w-full bg-darkBg/60">
       <div className="z-20 grid items-center h-full p-6 my-4 py-20 md:py-0 md:grid-cols-2">
         <Image
-          src="/yo2.png"
+          src="/yo3.png"
           priority
           width="700"
           height="700"
